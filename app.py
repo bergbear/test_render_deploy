@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Flask on Render!"
+    return "Hello from Flask on Render with a favicon!"
 
 
 if __name__ == "__main__":
